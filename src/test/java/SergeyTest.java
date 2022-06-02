@@ -9,7 +9,7 @@ public class SergeyTest extends BaseTest {
 
     @Test
     public void testFirstSelenium() throws InterruptedException {
-        getDriver().get("https://google.com-");
+        getDriver().get("https://google.com");
 
         WebElement searchBox = getDriver().findElement(By.name("q"));
         WebElement searchButton = getDriver().findElement(By.name("btnK"));
